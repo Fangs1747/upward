@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+#navbar{
+    background-image: url("assets/blackground.jpg");
+    height: 200px;
+    background-size: contain;
+}
+
+#navbar li {
+    margin-top: 15px;
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+#navbar li a{
+    margin: 15 20px;
+    font-size: 20px;
+    border: white solid 1px;
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+#navbar li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.4s ease;
+}
